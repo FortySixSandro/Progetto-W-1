@@ -280,16 +280,21 @@ section h2::before {
     text-decoration: none;
 }
 
+.containerProgetti a:hover{
+    color: hsl(220, 60%, 45%);
+    border-bottom: 2px solid hsl(45, 90%, 50%);
+}
+
+
 .buttonProgetti {text-align: right;}
 .buttonProgetti a{
+    color: hsl(220, 60%, 30%);
     text-decoration: none;
     border-bottom: 2px solid hsl(45, 90%, 50%);
     font-weight: 600;
 }
-
+.buttonProgetti a:hover{color: hsl(220, 60%, 45%);}
 .buttonProgetti img{vertical-align: center; margin-right: 6px;}
-
-
 
 
 
@@ -301,18 +306,30 @@ form label {
 
 form input {
     font-family: "Helvetica Neue", Arial, sans-serif;
+    border: 1px solid #d6cfbf;
+    background-color: #fbf8f1;
+    width: 100%;
 }
+
+select {width: 100%; background-color: #fbf8f1;}
 
 input,
 textarea {
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1rem;
-    width: 60%;
+    background-color: #fbf8f1;
+    width: 100%;
 }
+
+input:focus{background-color: white; border: hsl(220, 60%, 30%);}
+textarea:focus{background-color: white; border: hsl(220, 60%, 30%);}
 
 input[type="checkbox"] {
     width: auto;
 }
+
+form [placeholder]{color: #a39b87;}
+
 
 button {
     background-color: hsl(220, 60%, 30%);
@@ -339,9 +356,3 @@ footer {
 
 
 
-
-
-/* Colori e Utility */
-color #000000 color #B49F40 color #14213d color #e5e5e5 color #ffffff .titoloBlu {
-    color: #1F3D7A;
-}
