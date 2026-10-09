@@ -106,9 +106,12 @@ section {
 }
 
 section h2 {
-    color: #14213d;
+    color: hsl(220, 60%, 25%);
 }
 
+h1::first-letter{font-family: 'Playfair Display', Georgia, serif;}
+h2::first-letter{font-family: 'Playfair Display', Georgia, serif;}
+h3::first-letter{font-family: 'Playfair Display', Georgia, serif;}
 section h2::before {
     content: '\2756';
     color: hsl(45, 90%, 50%);
@@ -126,10 +129,11 @@ section h2::before {
 }
 
 .image p::first-letter {
+    font-family: 'Playfair Display', Georgia, serif;
     float: left;
     font-size: 3rem;
     font-weight: bold;
-    color: #14213d;
+    color: hsl(220, 60%, 30%);
     margin-right: 6px;
 }
 
