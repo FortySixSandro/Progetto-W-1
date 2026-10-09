@@ -469,3 +469,5 @@ footer {
 #portfolio a:hover {
     color: hsl(220, 60%, 45%);
 }
+
+.bold{font-weight: bold;}
