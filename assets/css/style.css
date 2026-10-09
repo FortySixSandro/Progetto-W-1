@@ -25,20 +25,24 @@ main {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* HEADER/NAV*/
 header {
     background-image: url(../img/header-bg.jpg);
     background-size: auto;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 12px;
     line-height: 2.4;
     border-bottom: 4px solid hsl(45, 90%, 60%);
     width: 100%;
+}
 
+.bgBlack{
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 12px;
+    
 }
 
 header h1 {
@@ -54,19 +58,21 @@ header h1 {
 header p {
     color: #f0e7c8;
     font-style: italic;
-    margin-top: 0;
+
     margin-bottom: 0;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 
 nav ul {
-    padding: 0;
+    padding: 6px;
+    margin: 0;
 }
 
 nav li {
     color: #e5e5e5;
     display: inline-block;
-    padding: 1px;
+    padding: 2px;
+    margin-bottom: 9px;
 }
 
 nav a {
@@ -74,7 +80,7 @@ nav a {
     font-weight: bold;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 3px;
-    padding: 2px;
+    padding: 6px;
     text-decoration: none;
     display: inline-block;
 }
@@ -163,7 +169,8 @@ section h2::before {
     color: #5e5e5e;
 }
 
-#competenze img{width: 18px; vertical-align: center; margin-right: 6px;}
+#competenze h4{color: hsl(220, 60%, 25%);}
+#competenze svg{margin-right: 12px;}
 
 
 .greyProg {
@@ -296,8 +303,6 @@ section h2::before {
     font-weight: 600;
 }
 .linkAction a:hover{color: hsl(220, 60%, 45%);}
-.linkAction img{vertical-align: center; margin-right: 6px;}
-
 
 
 /* SEZIONE CONTATTAMI */
@@ -342,8 +347,6 @@ form [placeholder]{color: #a39b87;}
     border-radius: 2px;
 }
 
-.buttonContatti img{width: 18px; vertical-align: center; margin-right: 6px;}
-
 .buttonContatti:hover {
     background-color: hsl(220, 60%, 45%);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
@@ -352,9 +355,24 @@ form [placeholder]{color: #a39b87;}
 }
 
 /* FOOTER */
+.iconeFooter svg{
+    padding: 8px;
+    border-radius: 55%;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.iconeFooter a{padding: 3px;}
+
+.iconeFooter svg:hover{
+    background-color: hsl(45, 90%, 60%);
+    color: hsl(220, 60%, 20%);
+}
 
 footer {
-    padding: 7px;
+
+    padding: 25px 25px 15px 25px;
     text-align: center;
     color: white;
     background-color: hsl(220, 40%, 15%);
