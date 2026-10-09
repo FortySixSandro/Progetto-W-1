@@ -30,18 +30,22 @@ main {
 /* HEADER/NAV*/
 header {
     background-image: url(../img/header-bg.jpg);
-    background-size: contain;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
+    padding: 12px;
     line-height: 2.4;
     border-bottom: 4px solid hsl(45, 90%, 60%);
     width: 100%;
-    padding: 12px;
+
 }
 
 header h1 {
     color: white;
     font-family: "PT Serif Caption", serif;
     font-size: 50px;
+    margin-top: 0;
     margin-bottom: 0;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 
@@ -51,6 +55,7 @@ header p {
     color: #f0e7c8;
     font-style: italic;
     margin-top: 0;
+    margin-bottom: 0;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -69,7 +74,7 @@ nav a {
     font-weight: bold;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 3px;
-    padding: 4px;
+    padding: 2px;
     text-decoration: none;
     display: inline-block;
 }
@@ -80,11 +85,7 @@ nav a:hover {
     border: 1px solid hsl(45, 90%, 60%);
 }
 
-#top img {
-    vertical-align: center;
-    margin-right: 6px;
-    width: 18px;
-}
+#top nav svg{margin: 0px 10px}
 
 /* SEZIONI GENERALI */
 section {
