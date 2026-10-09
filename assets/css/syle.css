@@ -80,8 +80,14 @@ nav a:hover {
     border: 1px solid hsl(45, 90%, 60%);
 }
 
+#top img {
+    vertical-align: center;
+    margin-right: 6px;
+    width: 18px;
+}
+
 /* SEZIONI GENERALI */
-section{
+section {
     background-color: white;
     border: 1px solid #e6e0d3;
     border-radius: 8px;
@@ -97,6 +103,7 @@ section h2 {
 section h2::before {
     content: '\2756';
     color: hsl(45, 90%, 50%);
+    margin-right: 10px;
 }
 
 /* SEZIONE CHI SONO */
@@ -122,100 +129,109 @@ section h2::before {
 }
 
 /* SEZIONE COMPETENZE */
+#competenze table {
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: left;
+}
+
 #competenze table caption {
     text-align: left;
     color: hsl(220, 60%, 30%);
     font-style: italic;
 }
 
-#competenze table th{
+#competenze table th {
     background-color: #f0e7c86b;
     border-bottom: 1px solid #ece6d8;
     color: hsl(220, 60%, 25%);
     padding: 6px;
 }
 
-#competenze table{
-    /* border: 1px solid red; */
-    width: 100%;
-    text-align: left;
-
-}
-
-#competenze table td{
+#competenze table td {
     /* border: 1px solid green; */
     border-bottom: 1px solid #ece6d8;
     width: 50%;
-
 }
 
-#competenze table p{
+#competenze table p {
     /* border: 1px solid blue; */
     font-size: 14px;
     font-style: italic;
     width: 80%;
-    
+    color: #5e5e5e;
 }
 
-
-.greyProg{
-    background-color: #ddd5b96b;
+.greyProg {
+    background-color: #ece6d8;
     width: 90%;
     height: 10px;
     border-radius: 10px;
-    
 }
 
-.yellowProg1{
+.yellowProg1,
+.yellowProg2,
+.yellowProg3,
+.yellowProg4,
+.yellowProg5 {
     background-color: hsl(45, 90%, 50%);
     width: 80%;
     height: 10px;
     border-radius: 10px;
 }
-.yellowProg2{
-    background-color: hsl(45, 90%, 50%);
+
+.yellowProg2 {
     width: 70%;
-    height: 10px;
-    border-radius: 10px;
 }
-.yellowProg3{
-    background-color: hsl(45, 90%, 50%);
+
+.yellowProg3 {
     width: 60%;
-    height: 10px;
-    border-radius: 10px;
 }
-.yellowProg4{
-    background-color: hsl(45, 90%, 50%);
+
+.yellowProg4 {
     width: 50%;
-    height: 10px;
-    border-radius: 10px;
 }
-.yellowProg5{
-    background-color: hsl(45, 90%, 50%);
+
+.yellowProg5 {
     width: 80%;
-    height: 10px;
-    border-radius: 10px;
 }
-
-
-
-
-
-
-
 
 
 /* SEZIONE ESPERIENZE*/
-#esperienze td {
-    border: 1px solid rgb(204, 204, 204);
+
+#esperienze table caption {
+    text-align: left;
+    color: hsl(220, 60%, 30%);
+    font-style: italic;
 }
 
-#esperienze tbody tr:nth-child(odd) {
-    background-color: #eee;
+#esperienze table {
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: left;
+}
+
+#esperienze table caption {
+    text-align: left;
+    color: hsl(220, 60%, 30%);
+    font-style: italic;
+}
+
+#esperienze table th {
+    background-color: #f0e7c86b;
+    border-bottom: 1px solid #ece6d8;
+    color: hsl(220, 60%, 25%);
+    padding: 6px;
+}
+
+#esperienze table td {
+    /* border: 1px solid green; */
+    border-bottom: 1px solid #ece6d8;
+    padding: 5px;
 }
 
 /*SEZIONE PROGETTI */
-.preCorso h3::after {
+.cardProgetti h3:first-child::after {
     content: "NEW";
     margin-left: 10px;
     background-color: rgb(219, 0, 0);
@@ -225,12 +241,54 @@ section h2::before {
     border-radius: 5px;
 }
 
-
-.preCorso {
-    background-color: rgba(252, 216, 148, 0.212);
-    border-radius: 5px;
-    padding: 2px;
+.cardProgetti1 h3,
+.cardProgetti2 h3 {
+    color: #14213d;
 }
+
+.cardProgetti1 {
+    background-color: #f0e7c86b;
+    border-left: 4.5px solid hsl(220, 60%, 30%);
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 12px;
+
+}
+
+.cardProgetti2 {
+    background-color: white;
+    border: 1px solid #ece6d8;
+    border-left: 4.5px solid hsl(45, 90%, 50%);
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.cardProgetti1 img,
+.cardProgetti2 img {
+    width: 18px;
+    vertical-align: center;
+    margin-right: 6px;
+}
+
+.containerProgetti a {
+    color: hsl(220, 60%, 30%); 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buttonProgetti {text-align: right;}
+.buttonProgetti a{
+    text-decoration: none;
+    border-bottom: 2px solid hsl(45, 90%, 50%);
+    font-weight: 600;
+}
+
+.buttonProgetti img{vertical-align: center; margin-right: 6px;}
+
+
+
+
 
 /* SEZIONE CONTATTAMI */
 form label {
@@ -276,11 +334,11 @@ footer {
     background-color: #172136;
 }
 
+
+
+
+
 /* Colori e Utility */
 color #000000 color #B49F40 color #14213d color #e5e5e5 color #ffffff .titoloBlu {
     color: #1F3D7A;
-}
-
-.bold {
-    font-weight: bold;
 }
