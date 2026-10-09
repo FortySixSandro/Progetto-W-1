@@ -286,15 +286,15 @@ section h2::before {
 }
 
 
-.buttonProgetti {text-align: right;}
-.buttonProgetti a{
+.linkAction {text-align: right;}
+.linkAction a{
     color: hsl(220, 60%, 30%);
     text-decoration: none;
     border-bottom: 2px solid hsl(45, 90%, 50%);
     font-weight: 600;
 }
-.buttonProgetti a:hover{color: hsl(220, 60%, 45%);}
-.buttonProgetti img{vertical-align: center; margin-right: 6px;}
+.linkAction a:hover{color: hsl(220, 60%, 45%);}
+.linkAction img{vertical-align: center; margin-right: 6px;}
 
 
 
@@ -331,17 +331,21 @@ input[type="checkbox"] {
 form [placeholder]{color: #a39b87;}
 
 
-button {
+.buttonContatti {
     background-color: hsl(220, 60%, 30%);
     color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 12px 23px;
     border: none;
     border-radius: 2px;
 }
 
-button:hover {
+.buttonContatti img{width: 18px; vertical-align: center; margin-right: 6px;}
+
+.buttonContatti:hover {
     background-color: hsl(220, 60%, 45%);
-    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.397);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
 
 }
 
@@ -351,8 +355,6 @@ footer {
     padding: 7px;
     text-align: center;
     color: white;
-    background-color: #172136;
+    background-color: hsl(220, 40%, 15%);
 }
-
-
 
