@@ -234,7 +234,7 @@ section h2::before {
 }
 
 /*SEZIONE PROGETTI */
-.cardProgetti h3:first-child::after {
+.new::after{
     content: "NEW";
     margin-left: 10px;
     background-color: rgb(219, 0, 0);
@@ -242,6 +242,7 @@ section h2::before {
     color: white;
     font-size: 0.8rem;
     border-radius: 5px;
+
 }
 
 .cardProgetti1 h3,
