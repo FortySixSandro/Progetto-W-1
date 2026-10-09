@@ -162,6 +162,9 @@ section h2::before {
     color: #5e5e5e;
 }
 
+#competenze img{width: 18px; vertical-align: center; margin-right: 6px;}
+
+
 .greyProg {
     background-color: #ece6d8;
     width: 90%;
