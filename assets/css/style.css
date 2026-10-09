@@ -207,9 +207,7 @@ section h2::before {
     width: 80%;
 }
 
-
 /* SEZIONE ESPERIENZE*/
-
 #esperienze table caption {
     text-align: left;
     color: hsl(220, 60%, 30%);
@@ -385,4 +383,26 @@ footer {
     color: white;
     background-color: hsl(220, 40%, 15%);
 }
+
+/* INIZIO HTML PROGETTI */
+
+#paginaRicetta{
+    border: 1px solid red;
+
+    margin-top: -60px;
+}
+
+#topPRO nav svg{margin: 0px 10px}
+#topPRO p{margin: 0;}
+
+
+
+
+
+
+
+
+
+
+
 
