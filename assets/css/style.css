@@ -428,7 +428,7 @@ footer {
 /* INIZIO HTML PROGETTI */
 
 #paginaRicetta {
-    margin-top: -61px;
+    margin-top: -73px;
 }
 
 #topPRO nav svg {
@@ -441,17 +441,27 @@ footer {
 
 #paginaRicetta svg,
 #cardPresentazione svg,
-#portfolio svg{margin-right: 6px;}
+#portfolio svg {
+    margin-right: 6px;
+}
 
 #paginaRicetta a,
 #cardPresentazione a,
-#portfolio a{
+#portfolio a {
     color: hsl(220, 60%, 30%);
     text-decoration: none;
     border-bottom: 2px solid hsl(45, 90%, 50%);
     font-weight: 600;
 }
 
-#paginaRicetta a:hover{color: hsl(220, 60%, 45%);}
-#cardPresentazione a:hover{color: hsl(220, 60%, 45%);}
-#portfolio a:hover{color: hsl(220, 60%, 45%);}
+#paginaRicetta a:hover {
+    color: hsl(220, 60%, 45%);
+}
+
+#cardPresentazione a:hover {
+    color: hsl(220, 60%, 45%);
+}
+
+#portfolio a:hover {
+    color: hsl(220, 60%, 45%);
+}
