@@ -39,10 +39,10 @@ header {
     width: 100%;
 }
 
-.bgBlack{
+.bgBlack {
     background-color: rgba(0, 0, 0, 0.356);
     padding: 12px;
-    
+
 }
 
 header h1 {
@@ -91,7 +91,9 @@ nav a:hover {
     border: 1px solid hsl(45, 90%, 60%);
 }
 
-#top nav svg{margin: 0px 10px}
+#top nav svg {
+    margin: 0px 10px
+}
 
 /* SEZIONI GENERALI */
 section {
@@ -169,8 +171,13 @@ section h2::before {
     color: #5e5e5e;
 }
 
-#competenze h4{color: hsl(220, 60%, 25%);}
-#competenze svg{margin-right: 12px;}
+#competenze h4 {
+    color: hsl(220, 60%, 25%);
+}
+
+#competenze svg {
+    margin-right: 12px;
+}
 
 
 .greyProg {
@@ -240,7 +247,7 @@ section h2::before {
 }
 
 /*SEZIONE PROGETTI */
-.new::after{
+.new::after {
     content: "NEW";
     margin-left: 10px;
     background-color: rgb(219, 0, 0);
@@ -282,25 +289,31 @@ section h2::before {
 }
 
 .containerProgetti a {
-    color: hsl(220, 60%, 30%); 
+    color: hsl(220, 60%, 30%);
     font-weight: bold;
     text-decoration: none;
 }
 
-.containerProgetti a:hover{
+.containerProgetti a:hover {
     color: hsl(220, 60%, 45%);
     border-bottom: 2px solid hsl(45, 90%, 50%);
 }
 
 
-.linkAction {text-align: right;}
-.linkAction a{
+.linkAction {
+    text-align: right;
+}
+
+.linkAction a {
     color: hsl(220, 60%, 30%);
     text-decoration: none;
     border-bottom: 2px solid hsl(45, 90%, 50%);
     font-weight: 600;
 }
-.linkAction a:hover{color: hsl(220, 60%, 45%);}
+
+.linkAction a:hover {
+    color: hsl(220, 60%, 45%);
+}
 
 
 /* SEZIONE CONTATTAMI */
@@ -316,8 +329,14 @@ form input {
     width: 100%;
 }
 
-select {width: 100%; background-color: #fbf8f1;}
-select:focus{background-color: white;}
+select {
+    width: 100%;
+    background-color: #fbf8f1;
+}
+
+select:focus {
+    background-color: white;
+}
 
 input,
 textarea {
@@ -327,16 +346,28 @@ textarea {
     width: 100%;
 }
 
-input:focus{background-color: white; border: hsl(220, 60%, 30%);}
-textarea:focus{background-color: white; border: hsl(220, 60%, 30%);}
+input:focus {
+    background-color: white;
+    border: hsl(220, 60%, 30%);
+}
+
+textarea:focus {
+    background-color: white;
+    border: hsl(220, 60%, 30%);
+}
 
 input[type="checkbox"] {
     width: auto;
 }
 
-form [placeholder]{color: #a39b87;}
+form [placeholder] {
+    color: #a39b87;
+}
 
-.buttonContatti svg{margin-right: 6px;}
+.buttonContatti svg {
+    margin-right: 6px;
+}
+
 .buttonContatti {
     background-color: hsl(220, 60%, 30%);
     color: white;
@@ -353,16 +384,23 @@ form [placeholder]{color: #a39b87;}
 
 }
 
-.linkActionCENTER{text-align: center;}
-.linkActionCENTER a{
+.linkActionCENTER {
+    text-align: center;
+}
+
+.linkActionCENTER a {
     color: hsl(220, 60%, 30%);
     text-decoration: none;
     border-bottom: 2px solid hsl(45, 90%, 50%);
     font-weight: 600;
 }
-.linkActionCENTER a:hover{color: hsl(220, 60%, 45%);}
+
+.linkActionCENTER a:hover {
+    color: hsl(220, 60%, 45%);
+}
+
 /* FOOTER */
-.iconeFooter svg{
+.iconeFooter svg {
     padding: 8px;
     border-radius: 55%;
     font-size: 22px;
@@ -370,9 +408,12 @@ form [placeholder]{color: #a39b87;}
     color: white;
     background-color: rgba(255, 255, 255, 0.08);
 }
-.iconeFooter a{padding: 3px;}
 
-.iconeFooter svg:hover{
+.iconeFooter a {
+    padding: 3px;
+}
+
+.iconeFooter svg:hover {
     background-color: hsl(45, 90%, 60%);
     color: hsl(220, 60%, 20%);
 }
@@ -386,23 +427,31 @@ footer {
 
 /* INIZIO HTML PROGETTI */
 
-#paginaRicetta{
-    border: 1px solid red;
-
-    margin-top: -60px;
+#paginaRicetta {
+    margin-top: -61px;
 }
 
-#topPRO nav svg{margin: 0px 10px}
-#topPRO p{margin: 0;}
+#topPRO nav svg {
+    margin: 0px 10px
+}
 
+#topPRO p {
+    margin: 0;
+}
 
+#paginaRicetta svg,
+#cardPresentazione svg,
+#portfolio svg{margin-right: 6px;}
 
+#paginaRicetta a,
+#cardPresentazione a,
+#portfolio a{
+    color: hsl(220, 60%, 30%);
+    text-decoration: none;
+    border-bottom: 2px solid hsl(45, 90%, 50%);
+    font-weight: 600;
+}
 
-
-
-
-
-
-
-
-
+#paginaRicetta a:hover{color: hsl(220, 60%, 45%);}
+#cardPresentazione a:hover{color: hsl(220, 60%, 45%);}
+#portfolio a:hover{color: hsl(220, 60%, 45%);}
